@@ -194,5 +194,5 @@ Add `jest` script to `package.json`
 
 ## 🌄 Install Hapi, Joi and Mongoose
 
-    npm i hapi joi mongoose
+    npm i @hapi/hapi joi mongoose
     npm i @types/hapi__hapi -D

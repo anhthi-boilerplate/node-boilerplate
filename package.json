@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This this guide, we going to wall through the process of creating a Node project using Typescript from scratch. We also use Hapi framework to define API and integrate with MongoDB via Mongoose. Let's get started",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "prepare": "husky install",
     "start": "nodemon",
@@ -23,6 +26,11 @@
     "url": "https://github.com/project-boilerplate/node-boilerplate/issues"
   },
   "homepage": "https://github.com/project-boilerplate/node-boilerplate#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "joi": "^17.7.0",
+    "mongoose": "^6.8.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
@@ -50,10 +58,6 @@
       "prettier --write",
       "eslint --fix"
     ]
-  },
-  "dependencies": {
-    "hapi": "^18.1.0",
-    "joi": "^17.7.0",
-    "mongoose": "^6.8.0"
   }
 }
+
